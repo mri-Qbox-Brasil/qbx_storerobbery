@@ -227,7 +227,7 @@ CreateThread(function()
                 if config.useDrawText then
                     if not hasShownText then
                         hasShownText = true
-                        lib.showTextUI(locale('text.register_empty'), {position = 'left-center'})
+                        lib.showTextUI(locale('text.register_empty'), {position = 'right-center'})
                         exports['qbx-core']:DrawText()
                     end
                 else
@@ -265,7 +265,7 @@ CreateThread(function()
                 if config.useDrawText then
                     if not hasShownText then
                         hasShownText = true
-                        lib.showTextUI(text, {position = 'left-center'})
+                        lib.showTextUI(text, {position = 'right-center'})
                     end
                 else
                     qbx.drawText3d({text = text, coords = sharedConfig.safes[i].coords})
