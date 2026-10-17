@@ -1,6 +1,6 @@
 {
     "error": {
-        "no_police": "No hay suficientes policia (%{Required} son requeridos)",
+        "no_police": "No hay suficientes policia (%s son requeridos)",
         "process_canceled": "Proceso cancelado..",
         "lockpick_broken": "Has roto la ganzúa"
     },
@@ -10,7 +10,7 @@
         "safe_opened": "Caja abierta",
         "emptying_the_register": "Vaciando caja registradora..",
         "safe_code": "Código de seguridad: ",
-        "value": "Valor: $%{value}"
+        "value": "Valor: $%s"
     },
     "alert": {
         "register": "¡Alguien está en una registradora!",
