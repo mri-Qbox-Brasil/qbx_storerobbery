@@ -1,6 +1,6 @@
 {
     "error": {
-        "no_police": "Not Enough Police (%{Required} Required)",
+        "no_police": "Not Enough Police (%s Required)",
         "process_canceled": "Process canceled..",
         "lockpick_broken": "You Broke The Lock Pick"
     },
@@ -10,7 +10,7 @@
         "safe_opened": "Safe Opened",
         "emptying_the_register": "Emptying The Register..",
         "safe_code": "Safe Code: ",
-        "value": "Value: $%{value}"
+        "value": "Value: $%s"
     },
     "alert": {
         "register": "Someone is prying the register!",
